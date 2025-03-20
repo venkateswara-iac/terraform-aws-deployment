@@ -6,7 +6,7 @@ resource "aws_instance" "ven_gitaction_ec2" {
   vpc_security_group_ids = ["sg-0e5cf05ab17abc5cf"]
 
   tags = {
-    Name = "GitHub-Actions-EC2"
+    Name = "GitHub-ven-Actions-EC2"
   }
 }
 
